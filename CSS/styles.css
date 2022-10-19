@@ -1,0 +1,96 @@
+/******************Tag Selectors******************/
+body{
+background-color: hsl(30, 38%, 92%);
+}
+img{
+    height:400px;
+    float: left;
+    border-radius: 5px 0 0 5px;
+    margin-right: 15px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(212, 21%, 14%);
+}
+h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 30px;
+   
+}
+h6{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1rem;
+    text-align: justify;
+   color: hsl(228, 12%, 48%);
+
+}
+/******************Class Selectors******************/
+.attribution { font-size: 11px; text-align: center; 
+padding-top: 200px ;}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.price-one{
+    color:  hsl(158, 36%, 37%);
+    font-family:'Fraunces', serif ;
+    position: relative;
+}
+
+.price-two{
+    text-decoration: line-through;
+     margin-left: 410px;
+    position: relative;
+    bottom: 45px;
+}
+
+.main{
+    border-radius: 5px;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin:auto;
+    margin-top: 150px;
+    font-size: 14px;
+    padding-right: 10px;
+
+}
+/*
+.main-text{
+    text-align: left;
+    width: 250px;
+    height:400px;
+    float: right;
+    margin-left: 10%;
+}
+*/
+
+.btn {
+    background: #356e58;
+    background-image: -webkit-linear-gradient(top, #356e58, #1c3b2f);
+    background-image: -moz-linear-gradient(top, #356e58, #1c3b2f);
+    background-image: -ms-linear-gradient(top, #356e58, #1c3b2f);
+    background-image: -o-linear-gradient(top, #356e58, #1c3b2f);
+    background-image: linear-gradient(to bottom, #356e58, #1c3b2f);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px 40px 7px 40px;
+    text-decoration: none;
+    position: relative;
+    bottom: 23px;
+    left: 18px;
+  }
+  
+  .btn:hover {
+    background: #346e65;
+    background-image: -webkit-linear-gradient(top, #346e65, #134f45);
+    background-image: -moz-linear-gradient(top, #346e65, #134f45);
+    background-image: -ms-linear-gradient(top, #346e65, #134f45);
+    background-image: -o-linear-gradient(top, #346e65, #134f45);
+    background-image: linear-gradient(to bottom, #346e65, #134f45);
+    text-decoration: none;
+  }
